@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    padding: 20px;
+}
+li{
+    list-style: none;
+    display: inline;
+    padding: 22px;
+}
+header{
+     background-color: black;
+    color: white;
+}
+.container{
+  display: flex;
+  justify-content:space-between;
+}
+.left{
+    height: 40vh;
+    width: 40vw;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.right{
+    height: 40vh;
+    width: 40vw;
+    background-color: brown;
+    border: 2px solid black;
+}

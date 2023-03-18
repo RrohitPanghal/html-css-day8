@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+}
+ul{
+    padding: 20px;
+
+}
+li{
+    list-style: none;
+    padding: 20px;
+    display: inline;
+}
+img{
+    height: 40px;
+}
+.container{
+    display: flex;
+   /*  justify-content: center; */
+   justify-content: space-between;
+}
+.right{
+    height: 40vh;
+    width: 40vw;
+    background-color: blue;
+    color: aliceblue;
+}
+.left{
+    height: 40vh;
+    width: 40vw;
+    background-color: aqua;
+    color: black;
+}
